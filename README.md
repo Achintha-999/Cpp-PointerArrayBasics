@@ -68,7 +68,3 @@ Output:
 Important Notes
 -Static arrays are used because their lifetime extends beyond the function scope, allowing the pointer to remain valid after the function returns.
 -Returning pointers to local (non-static) arrays is unsafe as their memory is deallocated after the function exits.
-
-
-
-   
